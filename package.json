@@ -1,0 +1,22 @@
+{
+  "name": "saucelabs-demo",
+  "version": "0.0.0",
+  "description": "A demo for multi-browser testing using WebdriverIO and Sauce Labs.",
+  "main": "index.js",
+  "scripts": {
+    "local": "wdio local.conf.js",
+    "sauce": "wdio sauce.conf.js",
+    "wdio": "wdio"
+  },
+  "author": "Gary Moon <gary.il.moon@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.13.4",
+    "mocha": "^2.4.5",
+    "promise": "^7.1.1",
+    "sauce-connect-launcher": "^0.14.0",
+    "selenium-standalone": "^5.0.0",
+    "webdriverio": "^3.3.0"
+  }
+}
