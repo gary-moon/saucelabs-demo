@@ -1,6 +1,9 @@
 var expect = require('chai').expect;
 
 describe('Simple test', function () {
+  // Test runner timeout disabled
+  this.timeout(0);
+
   it('checks the title of the page', function () {
     return browser
       .url('https://developer.mozilla.org/en-US/docs/Web/JavaScript')
